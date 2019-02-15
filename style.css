@@ -1,0 +1,261 @@
+#gr {
+	width: 20px;
+	height: 20px;
+	background: #00FF00;
+	float :left;
+	margin-right : 5px;
+}
+#bw {
+	width: 20px;
+	height: 20px;
+	background: #CE810F;
+	float :left;
+	margin-right : 10px;
+}
+#red {
+	width: 20px;
+	height: 20px;
+	background: #FF0000;
+	float :left;
+	margin-right : 10px;
+}
+#fl{
+	float :left;
+	height: 22px;
+	margin-right : 10px;
+	}
+#messg {
+	margin : 0 auto;
+	width: 65%;
+	height: 40px;
+	
+}
+.top{
+	height: 50px;
+	width: 100%;
+	margin-bottom: 10px;
+	background-color: #de965a;
+	text-align: center;
+	border: 1px solid #000000;
+}
+.telo #ctable td, #ncttable td{
+	/*border-top: 5px solid #005555;
+	border-right: 5px solid #005555;*/
+	/*border-top: 3px solid #ffffff;
+	border-left: 3px solid #ffffff;
+	border-right: 3px solid #ffffff;
+	border-bottom: 3px solid #ffffff;*/
+	background-color: rgba(218, 216, 98, 0.72);
+	color:#000000;
+	text-align: center;
+	border-radius: 10px;
+	border: 1px solid #000000;
+}
+.telo #toptable td{
+	/*border-top: 5px solid #005555;
+	border-right: 5px solid #005555;*/
+	/*border-top: 3px solid #ffffff;
+	border-left: 3px solid #ffffff;
+	border-right: 3px solid #ffffff;
+	border-bottom: 3px solid #ffffff;*/
+	background-color: #D7D40B;
+	color:#000000;
+	text-align: center;
+	
+	border: 1px solid #000000;
+}
+.telo #imgtab td{
+	/*border-top: 5px solid #005555;
+	border-right: 5px solid #005555;*/
+	/*border-top: 3px solid #ffffff;
+	border-left: 3px solid #ffffff;
+	border-right: 3px solid #ffffff;
+	border-bottom: 3px solid #ffffff;*/
+	
+	color:#000000;
+	text-align: center;
+	
+	border: 1px solid #000000;
+}
+
+
+body{
+	background-color: rgba(131, 197, 61, 0.76);
+	
+}
+img{
+	width: 30px;
+	height: 30px;
+}
+#scrollup {
+position: fixed; /* фиксированная позиция */
+opacity: 0.8; /* прозрачность */
+/*padding: 15px 10px 10px; /* отступы */
+/*background: #aaa;
+border-radius: 5px; /* скругление углов */
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+right: 10px; /* отступ слева */
+bottom: 10px; /* отступ снизу */
+display: none; /* спрятать блок */
+cursor: pointer;
+width: 30px;
+height:30px;
+}
+button{
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+/*   ==== CONGRATS =====  */
+div#results_container {
+  margin: 2em;
+}
+
+#congrats h3, #errors h3 {
+        margin: 0;
+        font-family: "Bitstream Vera Sans", sans-serif;
+        font-weight:		800;
+        font-style:		normal;
+        text-decoration:	none;
+        word-spacing:		normal;
+        letter-spacing:	normal;
+        text-transform:	none;
+        border-color:		black;
+        padding:		.4em;
+}
+#congrats h3 {
+      background-color: #55B05A;
+      color: white;      
+}
+
+#congrats p { padding: .5em 1em; }
+
+#congrats p.toggle { text-indent: 10px;
+        background: transparent url('../images/arrow-down.gif')  15px 0 no-repeat;
+        }
+
+#congrats p.closed{
+        text-indent: 10px;
+                background: transparent url('../images/arrow-right.gif')  15px 0 no-repeat;
+}
+
+#congrats pre { overflow: auto;}
+
+img.inline-badge {
+  float: left;
+  padding: 10px;
+  padding-top: 3em;
+  margin: 0;
+  margin-left: 1.6em;
+}
+
+pre.badgeSnippet {
+  margin-left: 108px !important; /* give room to the image */
+  margin-top:0;
+  padding-left: 1em;
+  font-size: small;
+  color: #444;
+  margin-bottom: 2em;
+}
+
+
+/*   ==== COMMON: ERRORS + WARNINGS =====  */
+
+
+#warnings table, #errors table {
+	width:100%;
+	border-top: 1px solid #ccc !important;
+	line-height:120%;
+	border-collapse:collapse;
+  border-right:1px solid #CCCCCC;
+	}
+
+#warnings td, #errors td {
+	border-width: 0;
+}
+
+#errors h4, #warnings h4  {
+  font-weight: bold;
+  margin: 0;
+  padding: .4em;
+  background-color: #e0dd86;
+  color: black;
+  border: 1px solid #000000;
+}
+#errors h4 a, #warnings h4 a {
+  background-color: #e0dd86;
+  
+}
+
+td.linenumber {
+	width:3em;
+	border-bottom: 1px solid #ccc !important;
+	background-color: #e8e45e;
+	text-align:right;
+}
+
+td.codeContext {
+	border-bottom: 1px solid #ddd !important;
+	background-color: #c9d664;}
+
+
+/*   ==== ERRORS =====  */
+
+/* id="errors" - start of the list of errors */
+
+#errors h2 {
+  background-color: #E82848;
+  color: white;
+}
+
+#errors h3 {
+background-color: #D23D24 !important;
+        color: white;
+}
+
+
+td.parse-error {
+	padding: 5px 1em;
+	border-bottom: 1px solid #fdd !important;
+}
+
+td.nocontext {
+	width: 3em;
+	border-bottom: 1px solid #ddd !important;
+	background-color: #c9d664;}
+
+td.io, td.notfound, td.invalidparam, td.errortoken, td.unknownerror {
+	padding: 5px 1em;
+	border-bottom: 1px solid #fdd !important;
+}
+
+/*   ==== WARNINGS =====  */
+
+/* id="warnings" - start of the list of warnings */
+
+tr.warning {
+	padding: 0;}
+
+td.level1, td.level2, td.level0 {
+	padding: 5px 1em;
+	border-bottom: 1px solid #fdd !important;
+}
+.level0 {
+	border-left: 10px solid #C66 !important;
+	color: #000;}
+
+.level1 {
+	border-left: 10px solid #FA9084 !important;
+	color: #000;
+}
+.level2 {
+	border-left: 10px solid #FFB1A7 !important;
+	color: #000;
+}
+
